@@ -21,7 +21,7 @@ db.once('open', async () => {
       name: 'Tin of Cookies',
       description:
         'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'confucious.jpg',
+      image: 'confucius.jpg',
       category: categories[0]._id,
       price: 2.99,
       quantity: 500
@@ -45,11 +45,11 @@ db.once('open', async () => {
       quantity: 20
     },
     {
-      name: 'Handmade Soap',
+      name: 'Arthur Ashe',
       category: categories[1]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
-      image: 'soap.jpg',
+        'Start where you are. Use what you have. Do what you can.',
+      image: 'life-changing.jpg',
       price: 3.99,
       quantity: 50
     },
