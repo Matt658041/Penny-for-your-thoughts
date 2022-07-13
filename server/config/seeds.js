@@ -33,7 +33,7 @@ db.once('open', async () => {
       image: 'chinese.jpg',
       category: categories[0]._id,
       price: 2000.99,
-      quantity: 500
+      quantity: 900
     },
     {
       name: 'Audrey Hepburn',
@@ -81,13 +81,13 @@ db.once('open', async () => {
       quantity: 30
     },
     {
-      name: 'Tablet',
+      name: 'Benjamin Disraeli',
       category: categories[2]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
-      image: 'tablet.jpg',
+        'The fool wonders, the wise man asks.',
+      image: 'benjamin.jpg',
       price: 199.99,
-      quantity: 30
+      quantity: 300
     },
     {
       name: 'Tales at Bedtime',
