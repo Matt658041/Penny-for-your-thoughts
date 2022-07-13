@@ -27,11 +27,20 @@ db.once('open', async () => {
       quantity: 500
     },
     {
+      name: 'Chinese Proverb',
+      description:
+        'The scent of a rose will always stay on the hand of the giver.',
+      image: 'chinese.jpg',
+      category: categories[0]._id,
+      price: 2000.99,
+      quantity: 500
+    },
+    {
       name: 'Audrey Hepburn',
       description:
         'Nothing is impossible the word itself says I am possible.',
       image: 'hepburn.jpg',
-      category: categories[0]._id,
+      category: categories[1]._id,
       price: 1000.99,
       quantity: 500
     },
