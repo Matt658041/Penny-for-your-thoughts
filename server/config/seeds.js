@@ -36,6 +36,15 @@ db.once('open', async () => {
       quantity: 900
     },
     {
+      name: 'Chinese Proverbs',
+      description:
+        'All things are difficult before they are easy.',
+      image: 'allthings.jpg',
+      category: categories[0]._id,
+      price: 4000.99,
+      quantity: 900
+    },
+    {
       name: 'Audrey Hepburn',
       description:
         'Nothing is impossible the word itself says I am possible.',
