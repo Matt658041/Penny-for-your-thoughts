@@ -38,15 +38,13 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-const Quotes = 
+
 
 function App() {
   return (
     
     <ApolloProvider client={client}>
-      <>
-      <
-      </>
+     
       <Router>
         <div>
           <StoreProvider>
