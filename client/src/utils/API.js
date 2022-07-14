@@ -1,4 +1,4 @@
-const axios = require("axios");
+export const axios = require("axios");
 
 const options = {
   method: 'GET',
