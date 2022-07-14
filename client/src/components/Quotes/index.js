@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default class Quotes extends React.Component {
     state ={
-        persons: []
+        quotes: []
     }
     componentDidMount() {
         axios.get('https://world-of-quotes.p.rapidapi.com/v1/quotes/quote-of-the-day')
