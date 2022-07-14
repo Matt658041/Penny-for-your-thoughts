@@ -1,6 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+import { Quotes } from '../../utils/API';
 
 function Nav() {
 
@@ -32,6 +33,11 @@ function Nav() {
           <li className="mx-1">
             <Link to="/login">
               Login
+            </Link>
+          </li>
+          <li className="mx-1">
+            <Link to="/API">
+              Search Bar
             </Link>
           </li>
         </ul>
