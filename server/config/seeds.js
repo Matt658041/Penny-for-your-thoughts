@@ -162,16 +162,24 @@ db.once('open', async () => {
       category: categories[4]._id,
       description: 'You only fail when you stop trying',
       image: 'albertEinstein.jpg',
-      price: 1.99,
-      quantity: 1000
+      price: 3.99,
+      quantity: 6000
     },
     {
       name: 'Brooke Shields',
       category: categories[4]._id,
       description: "Don't waste a minute not being happy. If one window closes, run to the next window - or break down a door",
       image: 'brooke.jpg',
-      price: 1.99,
-      quantity: 1000
+      price: 5.99,
+      quantity: 100
+    },
+    {
+      name: 'Lao Tzu',
+      category: categories[4]._id,
+      description: 'Mastering others is strength. Mastering yourself is true power',
+      image: 'lao.jpg',
+      price: 19.99,
+      quantity: 2000
     },
 
   ]);
