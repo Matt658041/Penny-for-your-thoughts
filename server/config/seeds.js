@@ -157,6 +157,22 @@ db.once('open', async () => {
       price: 15.99,
       quantity: 8000
     },
+    {
+      name: 'Albert Einstein',
+      category: categories[4]._id,
+      description: 'You only fail when you stop trying',
+      image: 'albertEinstein.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
+    {
+      name: 'Brooke Shields',
+      category: categories[4]._id,
+      description: "Don't waste a minute not being happy. If one window closes, run to the next window - or break down a door",
+      image: 'brooke.jpg',
+      price: 1.99,
+      quantity: 1000
+    },
 
   ]);
 
