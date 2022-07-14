@@ -181,6 +181,22 @@ db.once('open', async () => {
       price: 19.99,
       quantity: 2000
     },
+    {
+      name: 'Theodore Roosevelt',
+      category: categories[4]._id,
+      description: "Believe you can and you're halfway there.",
+      image: 'Theodore.jpg',
+      price: 75.99,
+      quantity: 200
+    },
+    {
+      name: 'William James',
+      category: categories[4]._id,
+      description: 'Act as if what you do makes a difference. It does',
+      image: 'William.jpg',
+      price: 19.99,
+      quantity: 2000
+    },
 
   ]);
 
