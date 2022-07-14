@@ -132,7 +132,32 @@ db.once('open', async () => {
       image: 'alphabet-blocks.jpg',
       price: 9.99,
       quantity: 600
-    }
+    },
+    {
+      name: 'Nelson Mandela',
+      category: categories[4]._id,
+      description: "It always seems impossible until it's done.",
+      image: 'nelson.jpg',
+      price: 13.75,
+      quantity: 900
+    },
+    {
+      name: 'Samuel Beckett',
+      category: categories[4]._id,
+      description: 'Ever tried. Ever failed. No matter. Try Again. Fail. Flain better.',
+      image: 'samuel.jpg',
+      price: 9.99,
+      quantity: 1000
+    },
+    {
+      name: 'Alice Morse Earl',
+      category: categories[4]._id,
+      description: 'Not everyday is good but there is something good in every day',
+      image: 'Alice.jpg',
+      price: 15.99,
+      quantity: 8000
+    },
+
   ]);
 
   console.log('products seeded');
