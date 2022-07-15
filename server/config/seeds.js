@@ -197,6 +197,7 @@ db.once('open', async () => {
       price: 19.99,
       quantity: 2000
     },
+    
 
   ]);
 
