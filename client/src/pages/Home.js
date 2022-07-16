@@ -1,13 +1,12 @@
-import React, {useState} from "react";
+import React, {useState, useEffect } from "react";
 import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
 import Cart from "../components/Cart";
 import axios from 'axios';
+
 const Home = () => {
 const [quote, setquote] = useState("loading...") 
-
-console.log("check");
-
+function getQuote() {
   const options = {
     method: 'GET',
     url: 'https://world-of-quotes.p.rapidapi.com/v1/quotes/quote-of-the-day',
@@ -19,12 +18,24 @@ console.log("check");
   };
   console.log("line19hit");
    axios.request(options).then(function (response) {
-     const quotesoftheday = response.data
+     const quotesoftheday = response.data.quote
     console.log(response.data);
-    setquote("quotesoftheday")
+    setquote(quotesoftheday)
   }).catch(function (error) {
     console.error(error);
   });
+}
+
+useEffect(
+  getQuote, 
+  []
+) ;
+
+
+
+console.log("check");
+
+
 console.log("line25hit");
 
   return (
