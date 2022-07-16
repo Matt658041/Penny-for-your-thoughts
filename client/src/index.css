@@ -185,7 +185,7 @@ input:focus {
 }
 
 .py-1 {
-  padding-top: var(--spacing-one);
+
   padding-bottom: var(--spacing-one);
 }
 
@@ -197,13 +197,50 @@ input:focus {
 .card {
   width: 25%;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .error-text {
   color: var(--error);
 }
 
+.category-button-container {
+  padding: 30x;
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.category-button {
+  justify-content: space-evenly;
+}
+
+.product-container {
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.our-products {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  
+}
 .product-list {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+
+
+.product-item {
   padding: 10px;
   margin: 20px;
 }

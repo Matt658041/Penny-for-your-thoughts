@@ -40,7 +40,7 @@ function ProductItem(item) {
   }
 
   return (
-    <div className="card product-list" >
+    <div className="card product-item" >
       <Link to={`/products/${_id}`}>
         <img
           class="card-img-top"

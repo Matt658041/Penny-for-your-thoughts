@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 
 function Nav() {
 
+    function refreshPage() {
+      window.location.reload(false);
+    }
+
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
@@ -41,7 +45,7 @@ function Nav() {
 
   return (
     <header className="flex-row px-1">
-      <h1>
+      <h1 onClick={refreshPage}>
         <Link to="/">
           <span role="img" aria-label="shopping bag">💰</span>
           Penny For Your Thoughts
