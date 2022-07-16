@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import ProductList from "../components/ProductList";
 import CategoryMenu from "../components/CategoryMenu";
 import Cart from "../components/Cart";
 import axios from 'axios';
 const Home = () => {
+const [quote, setquote] = useState("loading...") 
 
 console.log("check");
 
@@ -18,15 +19,17 @@ console.log("check");
   };
   console.log("line19hit");
    axios.request(options).then(function (response) {
+     const quotesoftheday = response.data
     console.log(response.data);
+    setquote("quotesoftheday")
   }).catch(function (error) {
     console.error(error);
   });
 console.log("line25hit");
 
-
   return (
     <div className="container">
+      <div>{quote}</div>
       <CategoryMenu />
       <ProductList />
       <Cart />
