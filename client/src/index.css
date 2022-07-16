@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-  --primary: #232F3E;
-  --secondary: #F3A847;
+  --primary: #447fc7;
+  --secondary: #c9c9c9;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #272f32;
@@ -66,6 +66,8 @@ h5 {
 h6 {
   font-size: 1rem;
 }
+
+
 
 p {
   font-size: 1.1rem;
@@ -200,6 +202,7 @@ input:focus {
 .card {
   width: 25%;
   text-align: center;
+  border-radius: 25px;
 }
 
 .error-text {
