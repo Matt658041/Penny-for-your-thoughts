@@ -98,10 +98,7 @@ db.once('open', async () => {
       price: 199.99,
       quantity: 300
     },
-    
-   
-    
-    
+
   ]);
 
   console.log('products seeded');
