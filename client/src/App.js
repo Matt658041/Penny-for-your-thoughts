@@ -17,7 +17,9 @@ import Nav from './components/Nav';
 import { StoreProvider } from './utils/GlobalState';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
-import Quotes from './components/Quotes';
+import { useProductReducer } from './utils/reducers';
+
+
 
 const httpLink = createHttpLink({
   uri: '/graphql',
