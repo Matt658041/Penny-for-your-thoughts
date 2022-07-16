@@ -115,6 +115,7 @@ button[disabled] {
 
 img {
   max-width: 100%;
+  border-radius: 25px;
 }
 
 span[role="img"] {
@@ -177,6 +178,7 @@ input:focus {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
+  
 }
 
 .px-1 {
