@@ -6,8 +6,6 @@
   --light: #fafafa;
   --dark: #272f32;
   --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
 }
 
 * {
@@ -135,6 +133,7 @@ input:focus {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
+
 .container {
   width: 85%;
   max-width: 1200px;
@@ -202,6 +201,11 @@ input:focus {
 
 .error-text {
   color: var(--error);
+}
+
+.product-list {
+  padding: 10px;
+  margin: 20px;
 }
 
 @media screen and (max-width: 768px) {
