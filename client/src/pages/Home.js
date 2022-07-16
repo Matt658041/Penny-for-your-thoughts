@@ -17,7 +17,6 @@ function getQuote() {
     }
   };
   console.log("line19hit");
-  
    axios.request(options).then(function (response) {
      const quotesoftheday = response.data.quote
     console.log(response.data);
