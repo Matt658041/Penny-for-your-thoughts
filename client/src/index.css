@@ -4,7 +4,7 @@
 :root {
   --primary: #447fc7;
   --secondary: #c9c9c9;
-  --tertiary: #B12704;
+  --tertiary: #447fc7;
   --light: #fafafa;
   --dark: #272f32;
   --error: rgb(228, 46, 1);
@@ -45,6 +45,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  
 }
 
 h2 {
@@ -79,6 +80,7 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+
 
 a:hover {
   text-decoration: underline;
