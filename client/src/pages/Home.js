@@ -32,7 +32,6 @@ useEffect(
 ) ;
 
 
-
 console.log("check");
 
 
@@ -40,7 +39,7 @@ console.log("line25hit");
 
   return (
     <div className="container">
-      <div>{quote}</div>
+      <div>"{quote}"</div>
       <CategoryMenu />
       <ProductList />
       <Cart />
