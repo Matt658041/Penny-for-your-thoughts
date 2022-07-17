@@ -1,22 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .cart {
-  position: fixed;
-  top: 0;
-  right: 0;
-  min-width: 20%;
-  max-width: 30%;
-  max-height: 60%;
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  text-align: center;
   background-color: var(--light);
   overflow: auto;
   padding: .5rem;
   box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
-  border-bottom-left-radius: .5rem;
+  border-radius: .5rem;
 }
 
 .cart h2 {
-  font-size: 1.5rem;
+  font-family:'Teko', sans-serif;
+  font-size: 2.5rem;
   border-bottom: 1px solid var(--dark);
   padding-bottom: .5rem;
   margin: 1rem 0;
+}
+
+.cart h3 {
+  font-family:'Teko', sans-serif;
+  font-size:10vw;
 }
 
 .cart .close {
@@ -37,7 +48,6 @@
   right: 1%;
   font-size: 2rem;
   cursor: pointer;
-  background-color: var(--secondary);
   border-radius: 50%;
   padding: .25rem;
   width: 50px;

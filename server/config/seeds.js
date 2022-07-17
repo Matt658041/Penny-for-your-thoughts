@@ -89,6 +89,94 @@ db.once('open', async () => {
       price: 199.99,
       quantity: 300
     },
+    {
+      name: 'Nelson Mandela',
+      category: categories[4]._id,
+      description: "It always seems impossible until it's done.",
+      image: 'nelson.jpg',
+      price: 13.75,
+      quantity: 900
+    },
+    {
+      name: 'Samuel Beckett',
+      category: categories[4]._id,
+      description: 'Ever tried. Ever failed. No matter. Try Again. Fail. Flain better.',
+      image: 'samuel.jpg',
+      price: 9.99,
+      quantity: 1000
+    },
+    {
+      name: 'Alice Morse Earl',
+      category: categories[4]._id,
+      description: 'Not everyday is good but there is something good in every day',
+      image: 'Alice.jpg',
+      price: 15.99,
+      quantity: 8000
+    },
+    {
+      name: 'Albert Einstein',
+      category: categories[4]._id,
+      description: 'You only fail when you stop trying',
+      image: 'albertEinstein.jpg',
+      price: 3.99,
+      quantity: 6000
+    },
+    {
+      name: 'Brooke Shields',
+      category: categories[4]._id,
+      description: "Don't waste a minute not being happy. If one window closes, run to the next window - or break down a door",
+      image: 'brooke.jpg',
+      price: 5.99,
+      quantity: 100
+    },
+    {
+      name: 'Lao Tzu',
+      category: categories[4]._id,
+      description: 'Mastering others is strength. Mastering yourself is true power',
+      image: 'lao.jpg',
+      price: 19.99,
+      quantity: 2000
+    },
+    {
+      name: 'Theodore Roosevelt',
+      category: categories[4]._id,
+      description: "Believe you can and you're halfway there.",
+      image: 'Theodore.jpg',
+      price: 75.99,
+      quantity: 200
+    },
+    {
+      name: 'William James',
+      category: categories[4]._id,
+      description: 'Act as if what you do makes a difference. It does.',
+      image: 'William.jpg',
+      price: 19.99,
+      quantity: 2000
+    },
+    {
+      name: 'Tony Payne',
+      category: categories[3]._id,
+      description: 'Have fun... lots of it.',
+      image: 'tonipayne.jpeg',
+      price: 19.99,
+      quantity: 2000
+    },
+    {
+      name: 'Walter Lee',
+      category: categories[3]._id,
+      description: 'Hard work never killed anybody, but why take a chance?',
+      image: 'walterlee.webp',
+      price: 19.99,
+      quantity: 2000
+    },
+    {
+      name: 'The Floor',
+      category: categories[3]._id,
+      description: "If you fall, I'll always be there.",
+      image: 'thefloor.webp',
+      price: 19.99,
+      quantity: 2000
+    },
   ]);
 
   console.log('products seeded');

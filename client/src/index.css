@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 :root {
   --primary: #3a8abe;
   --secondary: #c9c9c9;
@@ -8,8 +6,6 @@
   --light: #fafafa;
   --dark: #272f32;
   --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
 }
 
 * {
@@ -152,6 +148,7 @@ input:focus {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
+
 .container {
   width: 85%;
   max-width: 1200px;
@@ -213,7 +210,7 @@ input:focus {
 }
 
 .py-1 {
-  padding-top: var(--spacing-one);
+
   padding-bottom: var(--spacing-one);
 }
 
@@ -232,22 +229,55 @@ input:focus {
   color: var(--error);
 }
 
+.category-button-container {
+  padding: 30x;
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.category-button {
+  justify-content: space-evenly;
+}
+
+.product-container {
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.our-products {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  
+}
+.product-list {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+
+
+.product-item {
+  padding: 10px;
+  margin: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
   }
 }
 
-/* Base CSS for all methods */
-/* Set box dimensions and positioning */
 .box {
   width: 1200px;
   height: 500px;
   margin: 10px;
   position: relative;
 }
-/* Fit our square image to its parent */
-img {
-  width: 100%;
-}
-/* Style our text overlay, center the text, and position it on top of our shade */

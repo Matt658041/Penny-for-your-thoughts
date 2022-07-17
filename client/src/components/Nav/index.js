@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 
 function Nav() {
 
+    function refreshPage() {
+      window.location.reload(false);
+    }
+
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
@@ -34,6 +38,7 @@ function Nav() {
               Login
             </Link>
           </li>
+          
         </ul>
       );
     }
