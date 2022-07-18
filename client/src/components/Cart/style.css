@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .cart {
-  position: relative;
+  position:absolute;
   width: 1000px;
   height: 500px;
   text-align: center;
