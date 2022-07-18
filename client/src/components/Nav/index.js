@@ -1,6 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
+// import quotation from "../../../public/images/quoteicon.png";
 
 function Nav() {
 
@@ -50,7 +51,7 @@ function Nav() {
     <header className="flex-row">
       <h1 className="penny" onClick={refreshPage}>
         <Link to="/">
-          <span role="img" aria-label="coin" >🪙</span>
+          <img className="quote-icon "src={process.env.PUBLIC_URL+"images/quoteicon.png"}/>
           Penny For Your Thoughts
         </Link>
       </h1>

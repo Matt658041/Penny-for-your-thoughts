@@ -113,6 +113,11 @@ header {
   background: var(--primary);
 }
 
+.quote-icon {
+  width: 50px;
+  height: 50px;
+}
+
 header a {
   color: var(--light);
 }
