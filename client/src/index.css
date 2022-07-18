@@ -87,6 +87,19 @@ j {
   left: 35%;
 }
 
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 20px 0 20px;
+}
+
+.login {
+  font-size: larger;
+  position: absolute;
+  top: 20px;
+  right: 65px;
+}
+
 
 a:hover {
   text-decoration: underline;

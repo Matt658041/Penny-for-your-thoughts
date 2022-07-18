@@ -44,8 +44,8 @@
 
 .cart-closed {
   position: fixed;
-  top: 2%;
-  right: 1%;
+  top: .5%;
+  right: .5%;
   font-size: 2rem;
   cursor: pointer;
   border-radius: 50%;

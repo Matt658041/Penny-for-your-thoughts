@@ -27,19 +27,21 @@ function Nav() {
       );
     } else {
       return (
-        <ul className="flex-row list-none">
-          <li className="mx-1 list-none">
+        <div class='login'>
+        <ul className="flex-row ">
+          <li className="">
             <Link to="/signup">
               Signup
             </Link>
           </li>
-          <li className="mx-1 list-none">
+          <li className="">
             <Link to="/login">
               Login
             </Link>
           </li>
           
         </ul>
+        </div>
       );
     }
   }
