@@ -260,6 +260,10 @@ input:focus {
   justify-content: space-evenly;
 }
 
+.penny {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
 .product-container {
   position:absolute;
   display: flex;

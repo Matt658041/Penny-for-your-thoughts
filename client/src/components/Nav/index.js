@@ -48,9 +48,9 @@ function Nav() {
 
   return (
     <header className="flex-row">
-      <h1>
+      <h1 className="penny">
         <Link to="/">
-          <span role="img" aria-label="shopping bag">💰</span>
+          <span role="img" aria-label="shopping bag">🪙</span>
           Penny For Your Thoughts
         </Link>
       </h1>
