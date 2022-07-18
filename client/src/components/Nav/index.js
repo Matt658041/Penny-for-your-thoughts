@@ -48,9 +48,9 @@ function Nav() {
 
   return (
     <header className="flex-row">
-      <h1 className="penny">
+      <h1 className="penny" onClick={refreshPage}>
         <Link to="/">
-          <span role="img" aria-label="coin">🪙</span>
+          <span role="img" aria-label="coin" >🪙</span>
           Penny For Your Thoughts
         </Link>
       </h1>
