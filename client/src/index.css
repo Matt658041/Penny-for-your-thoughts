@@ -111,6 +111,7 @@ a:hover {
 
 header {
   background: var(--primary);
+  padding-left: 20px;
 }
 
 header a {
