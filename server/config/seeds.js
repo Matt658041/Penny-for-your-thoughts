@@ -197,6 +197,15 @@ db.once('open', async () => {
       price: 19.99,
       quantity: 2000
     },
+    {
+      name: 'Tales at Bedtime',
+      category: categories[3]._id,
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
+      image: 'bedtime-book.jpg',
+      price: 9.99,
+      quantity: 100
+    },
     
 
   ]);
