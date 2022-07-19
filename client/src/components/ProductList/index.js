@@ -44,8 +44,8 @@ function ProductList() {
   }
 
   return (
-    <div className='product-container'>
-       <h2 className="our-products">Our Products:</h2>
+    <div className='product-container d-flex justify-content-center'>
+      
     <div className="product-list my-2">
      
       {state.products.length ? (
