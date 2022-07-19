@@ -28,7 +28,7 @@ function Nav() {
       );
     } else {
       return (
-        <div class='login'>
+        <div className='login'>
         <ul className="flex-row ">
           <li className="">
             <Link to="/signup">
