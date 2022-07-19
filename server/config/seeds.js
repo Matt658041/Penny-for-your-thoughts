@@ -204,10 +204,28 @@ db.once('open', async () => {
       price: 99,
       quantity: 500
     },
+    {
+      name: 'Km-Diary',
+      description:
+        ' Change your plans, not your standards.',
+      image: 'km-diary.jpg',
+      category: categories[0]._id,
+      price: 6000.99,
+      quantity: 900
+    },
+    {
+      name: 'Analects',
+      description:
+        'Virtue is not left to stand alone. He who practices it will have neighbors.',
+      image: 'analects.jpg',
+      category: categories[0]._id,
+      price: 700.99,
+      quantity: 1000
+    },
 
-  console.log('products seeded');
+  console.log('products seeded'),
 
-  await User.deleteMany();
+  await User.deleteMany(),
 
   await User.create({
     firstName: 'Pamela',
