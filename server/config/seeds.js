@@ -186,7 +186,24 @@ db.once('open', async () => {
       price: 2000.99,
       quantity: 500
     },
-  ]);
+    {
+      name: 'Randy Pausch',
+      description:
+        'Never, ever underestimate the importance of having fun.',
+      image: 'RandyPausch.jpg',
+      category: categories[03]._id,
+      price: 400.99,
+      quantity: 500
+    },
+    {
+      name: 'Will Thomas',
+      description:
+        "There's no fear when you're having fun.",
+      image: 'WillThomas.jpg',
+      category: categories[3]._id,
+      price: 00.99,
+      quantity: 500
+    },
 
   console.log('products seeded');
 
