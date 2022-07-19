@@ -51,7 +51,7 @@ function Nav() {
       <h1 className="penny" onClick={refreshPage}>
         <Link to="/">
           <span role="img" aria-label="coin"></span>
-          Penny For Your Thoughts
+             Penny For Your Thoughts
         </Link>
       </h1>
 
