@@ -111,6 +111,7 @@ a:hover {
 
 header {
   background: var(--primary);
+  padding: 0 0 0 20px;
 }
 
 .quote-icon {
@@ -275,24 +276,17 @@ input:focus {
   
 }
 .product-container {
-  position:absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  /* display: flex; */
+
+  width: 115%;
 }
 
-.our-products {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  
-}
+
 .product-list {
   
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
+  /* justify-content: center; */
+  
   padding-top: 40px;
 }
 
@@ -303,10 +297,25 @@ input:focus {
   margin: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:900px) {
   .card {
     width: 100%;
   }
+  .category-button-container{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .container img {
+    width: 625px;
+    height: 400px;
+  }
+  
+  .quote {
+    flex-wrap: wrap;
+    width: 200px;
+    height: 300px;
+  }
+
 }
 
 .box {
