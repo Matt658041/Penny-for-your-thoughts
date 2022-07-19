@@ -1,15 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 :root {
-  --primary: #232F3E;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
+  --primary: #3a8abe;
+  --secondary: #c9c9c9;
+  --tertiary: #3a8abe;
   --light: #fafafa;
   --dark: #272f32;
   --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
 }
 
 * {
@@ -18,13 +14,16 @@
 
 html,
 body {
-  min-height: 100%;
+  min-height: 100%; 
+  overflow-x: hidden;
+   
 }
 
 body {
+  background-color: rgb(237, 248, 248);
   margin: 0;
   padding: 0;
-  font-family: 'Karla', sans-serif;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
@@ -37,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family:"Source Sans Pro", "Arial", sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -45,6 +44,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  
 }
 
 h2 {
@@ -67,6 +67,7 @@ h6 {
   font-size: 1rem;
 }
 
+
 p {
   font-size: 1.1rem;
   margin-top: 0;
@@ -77,6 +78,32 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+
+j {
+  color:#4f6f79;
+  font-size: 32px;
+  margin: 0;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  margin-top: 10px;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 20px 0 20px;
+}
+
+.login {
+  font-size: larger;
+  position: absolute;
+  top: 20px;
+  right: 65px;
+}
+
 
 a:hover {
   text-decoration: underline;
@@ -91,19 +118,26 @@ header a {
 }
 
 button {
-  font-size: 1rem;
+  color: #272f32;
+  font-size: 1.25rem;
+  font-weight: 700;
   text-decoration: none;
-  padding: 0.25rem 1rem;
+  padding: 1rem 2rem;
   border-radius: .5rem;
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
+  margin: 0 10px;
+  /* background-color: var(--secondary); */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 button:hover {
-  opacity: .8;
+  background-color: #ffffff; 
+  color: #8f8f8f;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
 
 button[disabled] {
@@ -113,6 +147,7 @@ button[disabled] {
 
 img {
   max-width: 100%;
+  border-radius: 25px;
 }
 
 span[role="img"] {
@@ -137,6 +172,7 @@ input:focus {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
+
 .container {
   width: 85%;
   max-width: 1200px;
@@ -147,6 +183,16 @@ input:focus {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.shade {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .space-between {
@@ -175,6 +221,7 @@ input:focus {
 .my-2 {
   margin-top: var(--spacing-two);
   margin-bottom: var(--spacing-two);
+  
 }
 
 .px-1 {
@@ -188,7 +235,7 @@ input:focus {
 }
 
 .py-1 {
-  padding-top: var(--spacing-one);
+
   padding-bottom: var(--spacing-one);
 }
 
@@ -200,14 +247,66 @@ input:focus {
 .card {
   width: 25%;
   text-align: center;
+  border-radius: 25px;
 }
 
 .error-text {
   color: var(--error);
 }
 
+.category-button-container {
+  padding: 30x;
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.category-button {
+  justify-content: space-evenly;
+}
+
+.penny {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.product-container {
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.our-products {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  
+}
+.product-list {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+
+
+.product-item {
+  padding: 10px;
+  margin: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
   }
+}
+
+.box {
+  width: 1200px;
+  height: 500px;
+  margin: 10px;
+  position: relative;
 }

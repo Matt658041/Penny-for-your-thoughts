@@ -90,50 +90,6 @@ db.once('open', async () => {
       quantity: 300
     },
     {
-      name: 'Tales at Bedtime',
-      category: categories[3]._id,
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
-      image: 'bedtime-book.jpg',
-      price: 9.99,
-      quantity: 100
-    },
-    {
-      name: 'Spinning Top',
-      category: categories[4]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
-      image: 'spinning-top.jpg',
-      price: 1.99,
-      quantity: 1000
-    },
-    {
-      name: 'Set of Plastic Horses',
-      category: categories[4]._id,
-      description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
-      image: 'plastic-horses.jpg',
-      price: 2.99,
-      quantity: 1000
-    },
-    {
-      name: 'Teddy Bear',
-      category: categories[4]._id,
-      description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
-      image: 'teddy-bear.jpg',
-      price: 7.99,
-      quantity: 100
-    },
-    {
-      name: 'Alphabet Blocks',
-      category: categories[4]._id,
-      description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
-      image: 'alphabet-blocks.jpg',
-      price: 9.99,
-      quantity: 600
-    },
-    {
       name: 'Nelson Mandela',
       category: categories[4]._id,
       description: "It always seems impossible until it's done.",
@@ -192,12 +148,13 @@ db.once('open', async () => {
     {
       name: 'William James',
       category: categories[4]._id,
-      description: 'Act as if what you do makes a difference. It does',
+      description: 'Act as if what you do makes a difference. It does.',
       image: 'William.jpg',
       price: 19.99,
       quantity: 2000
     },
     {
+<<<<<<< HEAD
       name: 'Tales at Bedtime',
       category: categories[3]._id,
       description:
@@ -208,6 +165,31 @@ db.once('open', async () => {
     },
     
 
+=======
+      name: 'Tony Payne',
+      category: categories[3]._id,
+      description: 'Have fun... lots of it.',
+      image: 'tonipayne.jpeg',
+      price: 19.99,
+      quantity: 2000
+    },
+    {
+      name: 'Walter Lee',
+      category: categories[3]._id,
+      description: 'Hard work never killed anybody, but why take a chance?',
+      image: 'walterlee.webp',
+      price: 19.99,
+      quantity: 2000
+    },
+    {
+      name: 'The Floor',
+      category: categories[3]._id,
+      description: "If you fall, I'll always be there.",
+      image: 'thefloor.webp',
+      price: 19.99,
+      quantity: 2000
+    },
+>>>>>>> c2bcb03daa23cf18e57854d590d4151b64859422
   ]);
 
   console.log('products seeded');

@@ -66,15 +66,16 @@ const Cart = () => {
         <span role="img" aria-label="trash">
           🛒
         </span>
+        
       </div>
     );
   }
 
   return (
+    <div className='parent'>
     <div className="cart">
-      <div className="close" onClick={toggleCart}>
-        [close]
-      </div>
+      <button className="close btn-danger" onClick={toggleCart}>Close</button>
+
       <h2>Shopping Cart</h2>
       {state.cart.length ? (
         <div>
@@ -86,7 +87,7 @@ const Cart = () => {
             <strong>Total: ${calculateTotal()}</strong>
 
             {Auth.loggedIn() ? (
-              <button onClick={submitCheckout}>Checkout</button>
+              <button className='btn-primary' onClick={submitCheckout}>Checkout</button>
             ) : (
               <span>(log in to check out)</span>
             )}
@@ -94,12 +95,10 @@ const Cart = () => {
         </div>
       ) : (
         <h3>
-          <span role="img" aria-label="shocked">
-            😱
-          </span>
-          You haven't added anything to your cart yet!
+          Your cart is Empty!
         </h3>
       )}
+    </div>
     </div>
   );
 };

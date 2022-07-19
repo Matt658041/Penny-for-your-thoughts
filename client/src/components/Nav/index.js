@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 
 function Nav() {
 
+    function refreshPage() {
+      window.location.reload(false);
+    }
+
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
@@ -23,28 +27,31 @@ function Nav() {
       );
     } else {
       return (
-        <ul className="flex-row">
-          <li className="mx-1">
+        <div class='login'>
+        <ul className="flex-row ">
+          <li className="">
             <Link to="/signup">
               Signup
             </Link>
           </li>
-          <li className="mx-1">
+          <li className="">
             <Link to="/login">
               Login
             </Link>
           </li>
+          
         </ul>
+        </div>
       );
     }
   }
 
   return (
-    <header className="flex-row px-1">
-      <h1>
+    <header className="flex-row">
+      <h1 className="penny" onClick={refreshPage}>
         <Link to="/">
-          <span role="img" aria-label="shopping bag">🛍️</span>
-          -Shop-Shop
+          <span role="img" aria-label="coin"></span>
+          Penny For Your Thoughts
         </Link>
       </h1>
 
