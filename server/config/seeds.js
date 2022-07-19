@@ -201,7 +201,7 @@ db.once('open', async () => {
         "There's no fear when you're having fun.",
       image: 'WillThomas.jpg',
       category: categories[3]._id,
-      price: 00.99,
+      price: 99,
       quantity: 500
     },
 
