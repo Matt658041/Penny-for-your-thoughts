@@ -51,7 +51,11 @@ function Nav() {
     <header className="flex-row">
       <h1 className="penny" onClick={refreshPage}>
         <Link to="/">
+<<<<<<< HEAD
           <img className="quote-icon "src={process.env.PUBLIC_URL+"images/quoteicon.png"}/>
+=======
+          <span role="img" aria-label="coin"></span>
+>>>>>>> christian-2
           Penny For Your Thoughts
         </Link>
       </h1>
