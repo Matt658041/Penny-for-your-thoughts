@@ -238,6 +238,14 @@ db.once('open', async () => {
       price: 19.99,
       quantity: 2000
     },
+    {
+      name: 'Margo Vader',
+      category: categories[3]._id,
+      description: 'Be happy. Be fun. Let your hair down and be ageless',
+      image: 'MargoVader.jpg',
+      price: 19.99,
+      quantity: 2000
+    },
 
   console.log('products seeded'),
 
