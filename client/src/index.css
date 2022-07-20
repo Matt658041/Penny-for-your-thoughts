@@ -299,22 +299,28 @@ margin-right: auto;
 }
 
 @media screen and (max-width:900px) {
+ 
   .card {
     width: 100%;
   }
   .category-button-container{
     flex-wrap: wrap;
     flex-direction: column;
+    padding: 5px;
+    margin: 5px;
   }
   .container img {
     width: 625px;
     height: 400px;
   }
   
-  .quote {
+  .quote j {
+    position:-webkit-sticky;
+    top: 150px;
+    left: 300px;
     flex-wrap: wrap;
-    width: 200px;
-    height: 300px;
+    width: 500px;
+    height: 200px;
   }
 
 }
