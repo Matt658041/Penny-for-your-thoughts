@@ -222,6 +222,22 @@ db.once('open', async () => {
       price: 700.99,
       quantity: 1000
     },
+    {
+      name: 'Michael Scott',
+      category: categories[3]._id,
+      description: 'Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me.',
+      image: 'michaelScott.jpg',
+      price: 19.99,
+      quantity: 2000
+    },
+    {
+      name: 'Albert Einstein',
+      category: categories[3]._id,
+      description: 'Creativity is intelligence having fun.',
+      image: 'AlbertEinstein1.jpg',
+      price: 19.99,
+      quantity: 2000
+    },
 
   console.log('products seeded'),
 

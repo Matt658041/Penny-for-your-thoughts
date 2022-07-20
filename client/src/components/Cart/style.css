@@ -31,7 +31,7 @@
 }
 
 .cart .close {
-  position: absolute;
+  margin: auto;
   top: .5rem;
   right: .5rem;
   cursor: pointer;
