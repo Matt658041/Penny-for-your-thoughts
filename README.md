@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# This is a super fun app where you can purchase quotes!
 
 # This project can be viewed with this link https://penny-thoughts.herokuapp.com/
 
@@ -69,5 +69,43 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
+
+### Node packages used are
+   "apollo-server-express": "^3.6.1",
+    "bcrypt": "^4.0.1",
+    "cloudinary": "^1.30.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "faker": "^6.6.6",
+    "graphql": "^16.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.4.4",
+    "stripe": "^8.67.0"
+    "axios": "^0.27.2",
+    "@apollo/client": "^3.3.7",
+    "@stripe/stripe-js": "^1.3.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "apollo-upload-client": "^17.0.0",
+    "bootstrap": "^5.1.3",
+    "graphql": "^14.6.0",
+    "history": "^5.3.0",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.29.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "4.0.1",
+    "styled-components": "^5.3.5",
+   
+    "web-vitals": "^2.1.4"
+
+### Conributors are 
+Matt658041 (Matthew Boisse)
+Matthew Songer
+cnl-95 (Christian Lafferty)
+Kimberly Ann Yo (Kimberly West)
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
