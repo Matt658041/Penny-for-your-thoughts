@@ -246,6 +246,14 @@ db.once('open', async () => {
       price: 19.99,
       quantity: 2000
     },
+    {
+      name: 'Homer Simpson',
+      category: categories[3]._id,
+      description: "Son, if you really want something in life, you have to work for it. Now quiet! They're about to announce the lottery numbers.",
+      image: 'HomerSimpson.jpg',
+      price: 19.99,
+      quantity: 2000
+    },
 
   console.log('products seeded'),
 
