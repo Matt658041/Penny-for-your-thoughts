@@ -12,6 +12,14 @@
   height: 23px;
 }
 
+.close {
+  position:fixed;
+  display: flex;
+  top: 200px;
+  right: 215px;
+  z-index: 999;
+}
+
 .cart {
   justify-content: center;
   width: 1000px;
@@ -40,11 +48,11 @@
 }
 
 .cart .close {
-  position: absolute;
+  position: sticky;
   top: .5rem;
   right: .5rem;
   cursor: pointer;
-  color: var(--tertiary);
+  color: red;
 }
 
 .cart .close:hover {
