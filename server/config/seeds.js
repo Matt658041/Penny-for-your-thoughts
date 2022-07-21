@@ -101,7 +101,7 @@ db.once('open', async () => {
       name: 'Samuel Beckett',
       category: categories[4]._id,
       description: 'Ever tried. Ever failed. No matter. Try Again. Fail. Flain better.',
-      image: 'samuel.jpg',
+      image: 'Samuel.jpg',
       price: 9.99,
       quantity: 1000
     },
