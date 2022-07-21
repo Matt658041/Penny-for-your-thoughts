@@ -72,15 +72,15 @@ const Cart = () => {
   }
 
   return (
-    <div className='parent'>
-    <div className="cart">
+    <div className='parent '>
+    <div className="cart ">
       <button className="close btn-danger" onClick={toggleCart}>Close</button>
 
       <h2>Shopping Cart</h2>
       {state.cart.length ? (
-        <div>
+        <div className=''>
           {state.cart.map((item) => (
-            <CartItem key={item._id} item={item} />
+            <CartItem className="d-flex justify-content-center" key={item._id} item={item} />
           ))}
 
           <div className="flex-row space-between">

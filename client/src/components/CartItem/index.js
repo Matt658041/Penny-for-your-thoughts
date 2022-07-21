@@ -37,7 +37,7 @@ const CartItem = ({ item }) => {
   }
 
   return (
-    <div className="parent">
+    <div className="">
     <div className="cart-content">
       <div>
         <img
